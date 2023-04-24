@@ -1,5 +1,6 @@
 # weather-dashboard
-
+<!-- openweathermap API key de9896cc5903d3d20095502b01f4349e
+ -->
 ## Description
 
 A weather dashboard capable of viewing the weather of multiple cities. This is designed to help travelers plan trips accordingly.
