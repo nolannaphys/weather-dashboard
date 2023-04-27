@@ -1,5 +1,7 @@
 var apiKey = 'de9896cc5903d3d20095502b01f4349e'
 
+le
+
 $("#searchButton").on("click", function () {
     var searchValue = $("#searchInput").val()
     console.log(searchValue)
@@ -23,11 +25,10 @@ function currentWeather(lat, lon) {
             $("#currentWeather").append(currentDate, cityName, temp, wind, humidity, icon)
         })
 }
-//try to get this working next
-function temperature(lat, lon) {
-    fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}&units=imperial`)
+// function temperature(lat, lon) {
+//     fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}&units=imperial`)
 
-}
+// }
 
 function forecast(lat, lon) {
     fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}&units=imperial`)
