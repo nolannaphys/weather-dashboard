@@ -1,35 +1,36 @@
 .stretch-card>.card {
-    width: 100%;
-    min-width: 100%
+   width: 100%;
+   min-width: 100%
 }
 
 body {
-    background-color: #f9f9fa
+   background-color: #f9f9fa
 }
 
 .flex {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto
+   -webkit-box-flex: 1;
+   -ms-flex: 1 1 auto;
+   flex: 1 1 auto
 }
 
 @media (max-width:991.98px) {
-    .padding {
-        padding: 1.5rem
-    }
+   .padding {
+      padding: 1.5rem
+   }
 }
 
 @media (max-width:767.98px) {
-    .padding {
-        padding: 1rem
-    }
+   .padding {
+      padding: 1rem
+   }
 }
 
 .padding {
-    padding: 5rem
+   padding: 5rem
 }
 
-.grid-margin, .purchace-popup > div {
+.grid-margin,
+.purchace-popup>div {
    margin-bottom: 25px;
 }
 
@@ -74,16 +75,30 @@ body {
    padding: 0 0 38px;
 }
 
-.h3, h3 {
+.h3,
+h3 {
    font-size: 1.56rem;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
    font-family: "Poppins", sans-serif;
    font-weight: 500;
 }
 
-.text-gray, .card-subtitle, .new-accounts ul.chats li.chat-persons a p.joined-date {
+.text-gray,
+.card-subtitle,
+.new-accounts ul.chats li.chat-persons a p.joined-date {
    color: #969696;
 }
 
@@ -91,7 +106,9 @@ p {
    font-size: 13px;
 }
 
-.text-gray, .card-subtitle, .new-accounts ul.chats li.chat-persons a p.joined-date {
+.text-gray,
+.card-subtitle,
+.new-accounts ul.chats li.chat-persons a p.joined-date {
    color: #969696;
 }
 
@@ -99,7 +116,8 @@ p {
    padding: 0 0 4.75rem;
 }
 
-.mr-auto, .mx-auto {
+.mr-auto,
+.mx-auto {
    margin-right: auto !important;
 }
 
@@ -118,16 +136,16 @@ p {
 
 .card-weather .weakly-weather .weakly-weather-item {
    flex: 0 0 14.28%;
-   border-right: 1px solid #f2f2f2; 
+   border-right: 1px solid #f2f2f2;
    padding: 1rem;
    text-align: center;
 }
 
-.mb-0, .my-0 {
+.mb-0,
+.my-0 {
    margin-bottom: 0 !important;
 }
 
 .card-weather .weakly-weather .weakly-weather-item i {
    font-size: 1.2rem;
-} 
-
+}
